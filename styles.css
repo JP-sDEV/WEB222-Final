@@ -213,11 +213,13 @@ form > input[type="text"], input[type="email"] {
     #open-text, #open-img {
         width: 100%;
         margin: auto;
+        padding: 0;
     }
 
-    .container, #history-container {
+    .container, #history-container, #play-mode-container, #review-container {
         width: 100%;
-        align-self: center;
+        margin: 1rem auto;
+        justify-content: center;
     }
 
     nav > a> img {
@@ -226,6 +228,16 @@ form > input[type="text"], input[type="email"] {
 
     iframe {
         max-width: 100%;
+    }
+
+    .rule-content > img {
+        width: 100%;
+        padding: 0;
+    }
+
+    .review-card {
+        min-width: 15rem;
+        max-width: 15rem;
     }
 
 }
